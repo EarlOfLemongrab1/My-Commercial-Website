@@ -1,0 +1,117 @@
+.html {
+    font-family: serif;
+}
+.bodylogin {
+	background-image: url(https://lh3.googleusercontent.com/BWPDoZ4yb1c3lilg2omV71gjxdPzzieD8LNE58tCSDI8Gx7efgiBN9alLAvPubCSw1GlxTEmbjusZFZ_E6YiQOQ05pi6TAAXEr1OQQ=w600);
+	background-size: cover;
+}
+.headerlogin, .headerregister, .headerreset, .adminform, .headerpassword {
+	opacity: 0.80;
+	border-radius: 15px;
+	background-color: white;
+	border: 1px solid grey;
+	width: 28%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 3%;
+}
+.bodylogin, .bodyregister, .bodyreset, .bodypassword {
+	text-align: center;
+	margin: 15%;
+}
+.text {
+	border: none;
+	border-bottom: 2px solid black ;
+	outline: none;
+}
+.bodyreset {
+    background-image: url(https://s2.best-wallpaper.net/wallpaper/3840x2160/1807/Abstract-mesh-vector-violet_3840x2160.jpg);
+    background-size: cover;
+}
+.bodypassword {
+    background-image: url(https://s2.best-wallpaper.net/wallpaper/3840x2160/1807/Abstract-mesh-vector-violet_3840x2160.jpg);
+    background-size: cover;
+}
+.bodyregister {
+    background-image: url(https://lh3.googleusercontent.com/9x5M_P2M6GLLA-CiLL3FQnjR18rGZIRfnrKzifOyBRHHTxPbzUuizGecTAbCsz9tZO0VPpfuE2_GJMQCKZn0xZZ2yZiJulSiKEyD=w600);
+    background-size: cover;
+}
+.admin {
+	font-weight: bold;
+	background-image: url(https://data.1freewallpapers.com/download/wall-brick-purple-texture.jpg);
+	background-size: cover;
+	text-align: center;
+	margin-top: 12%;
+}
+input {
+    text-align: center;
+}
+
+.adminp {
+    color: white;
+}
+.catalogue {
+    background-color: black;
+}
+.product {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.product1 {
+	gap: 1%;
+	font-family: Georgia , serif;
+	font-weight: bold;
+	padding: 3px;
+	align-items: center;
+	text-align: center;
+	margin: 5px;
+	border: 2px solid indigo;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+}
+.imgproduct {
+	width: 350px;height: 300px;
+}
+.button {
+    float: right;
+    margin: 0.12%;
+    font-family: Verdana;  
+}
+.faq, .copy, .nb {
+    color : #F101CB;
+}
+.copy {
+    text-align: right;
+}
+.buy{
+    width: auto;
+    height: auto;
+    background-color:#F101CB;
+    color: black;
+	border-radius: 5px;
+	border: none;
+}
+.imgheader {
+	width: auto;
+	height: auto;
+}
+.name{
+    text-align:center;
+    position:relative;
+}
+.full{
+	background-color: black;
+	text-align: center;
+}
+.header{
+    text-align:center;
+    align-items : center;
+
+}
+.img{
+	text-align:center;
+	width:400px;
+	height:600px;
+}

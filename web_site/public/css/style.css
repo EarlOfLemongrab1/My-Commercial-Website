@@ -1,0 +1,481 @@
+.html {
+	font-family: serif;
+}
+.bodylogin {
+	background-image: url(https://lh3.googleusercontent.com/BWPDoZ4yb1c3lilg2omV71gjxdPzzieD8LNE58tCSDI8Gx7efgiBN9alLAvPubCSw1GlxTEmbjusZFZ_E6YiQOQ05pi6TAAXEr1OQQ=w600);
+	background-size: cover;
+}
+
+.headerlogin, .headerregister, .headerreset, .adminform, .headerpassword {
+	opacity: 0.80;
+	border-radius: 15px;
+	background-color: white;
+	border: 1px solid grey;
+	width: 28%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 3%;
+}
+
+#total {
+	color:white;
+}
+table, th, td{
+	border: 1px solid white;
+	border-collapse: collapse;
+	margin: auto;
+}
+#added {
+	background-color: antiquewhite;
+	color:#F101CB;
+}
+#qut {
+	background-color: black;
+	color:white
+}
+#cart_logo{
+	display: inline-block;
+	margin-right: 1%;
+	margin-left: 1%;
+	padding-bottom: 0.2%;
+	padding-right: 0.5%;
+	padding-left: 0.5%;
+	border-radius: 5px;
+	border: 2px solid indigo;
+	color:#F101CB;
+}
+#cartcontent {
+	color:white;
+	margin: auto;
+	
+}
+.username {
+	color: #F101CB;
+}
+.button3 {
+	text-align: center;
+	background-color: #F101CB;
+	color:black;
+	border: 2px solid indigo;
+    border-radius: 5px;
+	font-size: 150%;
+	display:inline-block;
+	padding:5px;
+	font-weight: bold;
+}
+.but {
+	margin-top: auto;
+}
+.txt{
+	font-weight: bold;
+	font-size:large;
+}
+.button1, .button2{
+	text-align: center;
+	color:#F101CB;
+	border: 2px solid indigo;
+    border-radius: 5px;
+	margin-left: 3%;
+	margin-right: 2%;
+	padding-left: 0.5%;
+	padding-right: 0.5%;
+	padding-bottom: 0.2%;
+}
+
+.bodylogin, .bodyregister, .bodyreset, .bodypassword {
+	text-align: center;
+	margin: 15%;
+}
+.text {
+	border: none;
+	border-bottom: 2px solid black ;
+	outline: none;
+}
+.bodyreset {
+	background-image: url(https://s2.best-wallpaper.net/wallpaper/3840x2160/1807/Abstract-mesh-vector-violet_3840x2160.jpg);
+	background-size: cover;
+}
+.bodypassword {
+	background-image: url(https://s2.best-wallpaper.net/wallpaper/3840x2160/1807/Abstract-mesh-vector-violet_3840x2160.jpg);
+	background-size: cover;
+}
+.bodyregister {
+	background-image: url(https://lh3.googleusercontent.com/9x5M_P2M6GLLA-CiLL3FQnjR18rGZIRfnrKzifOyBRHHTxPbzUuizGecTAbCsz9tZO0VPpfuE2_GJMQCKZn0xZZ2yZiJulSiKEyD=w600);
+	background-size: cover;
+}
+.register {
+	background-color: white;
+}
+.admin {
+	font-weight: bold;
+	background-image: url(https://data.1freewallpapers.com/download/wall-brick-purple-texture.jpg);
+	background-size: cover;
+	text-align: center;
+	margin-top: 12%;
+}
+input {
+	text-align: center;
+}
+
+.adminp {
+	color: white;
+}
+.catalogue {
+	background-color: black;
+}
+.imgproduct:hover{
+	cursor:pointer;
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+}
+.product {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.product1 {
+	width: fit-content;
+	overflow:visible;
+	gap: 1%;
+	font-family: Georgia , serif;
+	font-weight: bold;
+	padding: 3px;
+	align-items: center;
+	text-align: center;
+	margin: 0.8%;
+	border: 2px solid indigo;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: row;
+}
+.imgproduct {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+	width: 350px;height: 350px;
+	border-radius: 5px;
+}
+.button {
+	width: 25%;
+	padding: 1.5%;
+    cursor: pointer;
+    background-color: #F101CB;
+    color: #000;
+    border-radius: 10px;
+    font-size: 150%;
+	float: center;
+	margin: 0.12%;
+	font-family: Verdana;  
+}
+.button:hover,.button4:hover, .button3:hover{
+	color: #F101CB;
+	background-color:black;
+	border:2px solid indigo;
+}
+.faq, .copy, .nb {
+	color : #F101CB;
+	font-weight: bold;
+}
+.copy {
+	text-align: right;
+}
+.buy{
+	cursor:cell;
+	width: auto;
+	height: auto;
+	background-color:#F101CB;
+	color: black;
+	border-radius: 5px;
+	border: none;
+	margin-left:1%;
+}
+
+.buy:hover{
+	color:black;
+	background-color:#c421a8;
+}
+.imgheader {
+	width: auto;
+	height: auto;
+}
+.name{
+margin-right: auto;
+}
+.full{
+	cursor: cell;
+	background-color: black;
+	text-align: center;
+}
+.header{
+	cursor: cell;
+	display: flex;
+	flex-flow: row;
+	justify-content: flex-end;
+	align-items : center;
+	margin-bottom: 1%;
+}
+.img{
+	margin-left: auto;
+	width:25%;
+	height:25%;
+}
+
+.menu{
+	background-color:black;
+	color:#F101CB;
+	justify-content: space-evenly;
+}
+
+.des{
+	color: #F101CB;
+	margin-left: 10px;
+	font-size: 20px;
+
+}
+.imgpd{
+	border: 7px solid indigo;
+	border-radius:50px;
+	width: 600px;height: 600px;
+	margin-right: 10px;
+}
+.info{
+	padding: 3%;
+	display: flex;
+	flex-direction: column;
+	border: 7px solid indigo;
+	border-radius: 10px;
+	text-align: center;
+	align-items: center;
+	color:#F101CB;
+}
+
+.inf{
+	color:#F101CB ;
+	font-size: 30px;
+	}
+.nft{
+	color: #F101CB;
+	font-size: 22px;
+	 ;
+	}
+	.price{
+	color: #F101CB;
+	font-size: 30px;
+	
+	}
+
+	.all{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+	
+	.proimg{
+		margin-top: 5%;
+		width: 600px;
+		height: 600px;
+	border: 4px solid indigo;
+	border-radius: 4px;
+	}
+
+	.user{
+		float: right;
+		color:#F101CB;
+	}
+
+	a{
+		color: #F101CB;
+	}
+
+	.imgfoot {
+float:center;
+margin:1%;
+
+
+
+	}
+	.imgfoot1 {
+			text-align:center;
+			
+		}
+
+	.tout {
+		background-color:black;
+		
+	}
+
+	.paypal {
+		width:50px;
+		height:50px;
+		justify-content: space-evenly;
+		margin:1.5%;
+		
+	}
+
+	.imgpanier {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		background-color:black;
+		margin-bottom:3%;
+		align-items: center;
+		
+		
+	}
+
+	.panier{
+		float:center;
+		color: #F101CB;
+		border:solid indigo 5px;
+		border-radius:5px;
+		background-color:black;
+		align-items:center;
+		width:20%;
+		margin-top: 3%;
+		
+	}
+
+	.footer{
+		background-color:black;
+		float: bottom;
+		margin-top: 2%;
+	}
+
+	
+	
+	.allpanier{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		text-align:center;
+	}
+
+	.pr1{
+		border: 6px solid indigo;
+	}
+.button1:hover,.button2:hover,.logout:hover{	
+	background-color:#F101CB;
+	color: black;
+}
+.buttons{
+    float: right;
+	display: flex;
+	flex-direction: row-reverse;   
+}
+	
+	.antialiased{
+		background-color: black;
+	}
+
+	.panierbtn{
+		text-align: center;
+	}
+	
+	
+	.font-sans {
+		font-family: ui-sans-serif, system-ui, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+		background-image: url(https://lh3.googleusercontent.com/BWPDoZ4yb1c3lilg2omV71gjxdPzzieD8LNE58tCSDI8Gx7efgiBN9alLAvPubCSw1GlxTEmbjusZFZ_E6YiQOQ05pi6TAAXEr1OQQ=w600);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.logout {
+		border: 2px solid indigo;
+	    border-radius: 5px;
+		color: #F101CB;
+		margin-left: 1%;
+		margin-right: 1%;
+		padding-left: 0.5%;
+		padding-right: 0.5%;
+		padding-bottom: 0.2%;
+	}
+
+	.thumbnail {
+		position: relative;
+		padding: 0px;
+		margin-bottom: 20px;
+	}
+	.thumbnail img {
+		width: 80%;
+	}
+	.thumbnail .caption{
+		margin: 7px;
+	}
+	.main-section{
+		background-color: #F8F8F8;
+	}
+	.dropdown{
+		float:right;
+		padding-right: 30px;
+	}
+	.btn{
+		border:0px;
+		margin:10px 0px;
+		box-shadow:none !important;
+	}
+	.dropdown .dropdown-menu{
+		padding:20px;
+		top:30px !important;
+		width:350px !important;
+		left:-110px !important;
+		box-shadow:0px 5px 30px black;
+	}
+	.total-header-section{
+		border-bottom:1px solid #d2d2d2;
+	}
+	.total-section p{
+		margin-bottom:20px;
+	}
+	.cart-detail{
+		padding:15px 0px;
+	}
+	.cart-detail-img img{
+		width:100%;
+		height:100%;
+		padding-left:15px;
+	}
+	.cart-detail-product p{
+		margin:0px;
+		color:#000;
+		font-weight:500;
+	}
+	.cart-detail .price{
+		font-size:12px;
+		margin-right:10px;
+		font-weight:500;
+	}
+	.cart-detail .count{
+		color:#C2C2DC;
+	}
+	.checkout{
+		border-top:1px solid #d2d2d2;
+		padding-top: 15px;
+	}
+	.checkout .btn-primary{
+		border-radius:50px;
+		height:50px;
+	}
+	.dropdown-menu:before{
+		content: " ";
+		position:absolute;
+		top:-20px;
+		right:50px;
+		border:10px solid transparent;
+		border-bottom-color:#fff;
+	}
+	.cate {
+		display: flex;
+		flex-flow: row wrap;
+	}
+	.desc {
+		margin-top: 1%;
+		color:#F101CB;
+	}
+	.contentprod {
+		height: fit-content;
+	}
+	.alert {
+		color: #F101CB;
+		background-color: #F8F8F8;
+	}
